@@ -1,0 +1,64 @@
+/** @format */
+:root {
+  --branding-color: #d789d7;
+  --secondary-color: #9d65c9;
+  --branding-background: linear-gradient(
+    to right,
+    rgb(173, 83, 137),
+    rgb(60, 16, 83)
+  );
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --primary-font-family: "Baloo 2", cursive;
+  --secondary-font-family: "Delius Unicase", cursive;
+}
+.Footer {
+  margin: 10px 250px;
+}
+.Footer .footer {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.Footer .footer-info {
+  text-align: center;
+  font-family: var(--primary-font-family);
+  font-size: 14px;
+}
+
+.Footer .fa-github-square,
+.Footer .fa-id-card,
+.Footer .fa-linkedin {
+  font-size: 25px;
+  color: black;
+  opacity: 0.6;
+}
+
+.Footer .fa-github-square:hover,
+.Footer .fa-id-card:hover,
+.Footer .fa-linkedin:hover,
+.Footer .fa-envelope:hover {
+  color: #21aba5;
+  transition: 200ms ease-in-out;
+  opacity: 1;
+  text-decoration: overline;
+}
+.Footer .git-link {
+  text-decoration: none;
+  color: #005b97;
+  font-weight: bold;
+  font-family: var(--primary-font-family);
+}
+
+.Footer .git-link:hover {
+  transition: 200ms ease-in-out;
+  color: var(--secondary-color);
+  color: #21aba5;
+}
+
+.Footer .fab:hover,
+.Footer .fas:hover,
+.Footer .far:hover {
+  font-size: 34px;
+  transition: all 200ms ease-in-out;
+  color: #21aba5;
+}

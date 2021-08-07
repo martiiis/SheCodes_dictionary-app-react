@@ -1,11 +1,15 @@
 /** @format */
 
 import "./App.css";
+import Footer from "./Footer.js";
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <div className="container-fluid dictionary">
+        <h1>DictionaryApp</h1>
+      </div>
+      <Footer />
     </div>
   );
 }
