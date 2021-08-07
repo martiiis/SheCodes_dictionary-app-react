@@ -11,54 +11,58 @@
   --primary-font-family: "Baloo 2", cursive;
   --secondary-font-family: "Delius Unicase", cursive;
 }
-.Footer {
-  margin: 10px 250px;
+footer {
+  margin: 50px 20px;
 }
-.Footer .footer {
-  margin-top: 15px;
-  margin-bottom: 10px;
+.footer {
+  margin: 10px;
 }
-
-.Footer .footer-info {
+.footer-email {
   text-align: center;
   font-family: var(--primary-font-family);
-  font-size: 14px;
+  font-size: 12px;
+  font-weight: bold;
 }
 
-.Footer .fa-github-square,
-.Footer .fa-id-card,
-.Footer .fa-linkedin {
-  font-size: 25px;
+.footer-info {
+  text-align: center;
+  font-family: var(--primary-font-family);
+  font-size: 12px;
+}
+
+.fa-github-square,
+.fa-id-card,
+.fa-linkedin {
+  font-size: 22px;
   color: black;
   opacity: 0.6;
 }
 
-.Footer .fa-github-square:hover,
-.Footer .fa-id-card:hover,
-.Footer .fa-linkedin:hover,
-.Footer .fa-envelope:hover {
-  color: #21aba5;
+.fa-github-square:hover,
+.fa-id-card:hover,
+.fa-linkedin:hover,
+.fa-envelope:hover {
+  color: rgb(115, 23, 165);
   transition: 200ms ease-in-out;
   opacity: 1;
   text-decoration: overline;
 }
-.Footer .git-link {
+.git-link {
   text-decoration: none;
-  color: #005b97;
+  color: rgb(115, 23, 165);
   font-weight: bold;
   font-family: var(--primary-font-family);
 }
 
-.Footer .git-link:hover {
+.git-link:hover {
   transition: 200ms ease-in-out;
   color: var(--secondary-color);
-  color: #21aba5;
 }
 
-.Footer .fab:hover,
-.Footer .fas:hover,
-.Footer .far:hover {
+.fab:hover,
+.fas:hover,
+.far:hover {
   font-size: 34px;
   transition: all 200ms ease-in-out;
-  color: #21aba5;
+  color: rgb(49, 4, 73);
 }

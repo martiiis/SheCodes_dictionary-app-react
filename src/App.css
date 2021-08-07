@@ -11,11 +11,13 @@
   --primary-font-family: "Baloo 2", cursive;
   --secondary-font-family: "Delius Unicase", cursive;
 }
-.App .container-fluid {
+.App .container {
   border: 1px solid #21aba5;
   border-radius: 12px;
   margin: 50px 80px 10px;
+  padding: 20px 25px;
   text-align: center;
-  font-family: var(--primary-font-family);
-  font-size: 14px;
+  font-family: var(--secondary-font-family);
+  font-size: 22px;
+  box-shadow: var(--box-shadow);
 }

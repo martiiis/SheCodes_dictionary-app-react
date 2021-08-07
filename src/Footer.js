@@ -43,7 +43,7 @@ export default function Footer() {
           Designed and built by <strong> Marta Pineda</strong>
           <br />
           <a
-            href="https://github.com/martiiis/weather_app_shecodes_react"
+            href="https://github.com/martiiis/dictionary-app-react"
             target="_blank"
             class="git-link"
             rel="noreferrer"
