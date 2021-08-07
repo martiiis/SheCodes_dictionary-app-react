@@ -11,13 +11,24 @@
   --primary-font-family: "Baloo 2", cursive;
   --secondary-font-family: "Delius Unicase", cursive;
 }
-.App .container {
+.App .container-header {
   border: 1px solid #21aba5;
   border-radius: 12px;
-  margin: 50px 80px 10px;
+  margin-top: 50px;
+  margin-bottom: 10px;
   padding: 20px 25px;
   text-align: center;
   font-family: var(--secondary-font-family);
-  font-size: 22px;
+  box-shadow: var(--box-shadow);
+}
+.App h1{
+  font-size: 50px;
+}
+
+.App .container-dictionary {
+  border: 1px solid #21aba5;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  padding: 20px 25px;
   box-shadow: var(--box-shadow);
 }

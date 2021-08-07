@@ -1,0 +1,8 @@
+/** @format */
+.Dictionary {
+  font-family: var(--primary-font-family);
+  padding: 100px;
+}
+.Dictionary form {
+  font-size: 15px;
+}
