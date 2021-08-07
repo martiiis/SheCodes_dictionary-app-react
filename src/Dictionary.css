@@ -1,8 +1,22 @@
 /** @format */
 .Dictionary {
   font-family: var(--primary-font-family);
-  padding: 100px;
+  padding: 50px;
 }
 .Dictionary form {
   font-size: 15px;
+}
+
+.Dictionary input {
+  border: 1px solid #21aba5;
+  border-radius: 8px;
+  padding: 5px 50px;
+  text-align: left;
+}
+
+.Dictionary .container-results {
+  padding: 5px;
+  border: 1px solid #21aba5;
+  margin-top: 25px;
+  border-radius: 8px;
 }
