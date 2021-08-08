@@ -1,21 +1,35 @@
 /** @format */
 .Dictionary {
   font-family: var(--primary-font-family);
-  padding: 50px;
+  padding: 5px;
 }
 .Dictionary form {
   font-size: 15px;
 }
 
 .Dictionary input {
-  border: 1px solid #21aba5;
+  border: 3px solid #77ddd8;
   border-radius: 8px;
-  padding: 5px 50px;
-  text-align: left;
+  padding: 8px 40px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #6334d1d7;
 }
 
-.Dictionary .container-results {
-  padding: 5px;
-  margin-top: 25px;
+.Dictionary section {
+  background-color: #a180f036;
   border-radius: 8px;
+  box-shadow: var(--box-shadow);
+  padding: 10px 10px;
+  margin: 25px;
+}
+
+.Dictionary .hint {
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 15px;
 }
