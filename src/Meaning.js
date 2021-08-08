@@ -22,11 +22,6 @@ export default function Meaning(props) {
                 <strong>📎 Example: </strong>
                 <em>" {definition.example}"</em>
               </div>
-              <div class="divider">
-                <a href="#top-page">
-                  <i class="fas fa-angle-double-up"></i>
-                </a>
-              </div>
               <Synonyms synonyms={definition.synonyms} />
             </p>
           </div>
