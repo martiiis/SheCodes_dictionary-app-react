@@ -3,7 +3,7 @@
 import "./App.css";
 
 import "bootstrap/dist/css/bootstrap.css";
-import AnchorLink from "react-anchor-link-smooth-scroll";
+
 import Footer from "./Footer.js";
 import Dictionary from "./Dictionary";
 
