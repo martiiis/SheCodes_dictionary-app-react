@@ -17,11 +17,12 @@ export default function Meaning(props) {
                 <strong>📑 Definition: </strong>
                 {definition.definition}
               </div>
-              <hr />
+              <br />
               <div className="example">
                 <strong>📎 Example: </strong>
                 <em>" {definition.example}"</em>
               </div>
+              <hr />
               <Synonyms synonyms={definition.synonyms} />
             </p>
           </div>
