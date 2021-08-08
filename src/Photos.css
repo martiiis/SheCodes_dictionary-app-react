@@ -3,6 +3,7 @@
 .Photos img {
   margin-bottom: 10px;
   border-radius: 8px;
+  width: auto;
 }
 
 .Photos .col-4 {

@@ -3,6 +3,7 @@
 import "./App.css";
 
 import "bootstrap/dist/css/bootstrap.css";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 import Footer from "./Footer.js";
 import Dictionary from "./Dictionary";
 
@@ -10,7 +11,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="container-header">
-        <h1>📚 Dictionary</h1>
+        <h1 id="top-page">📚 Dictionary</h1>
       </div>
       <div className="container-dictionary">
         <Dictionary />

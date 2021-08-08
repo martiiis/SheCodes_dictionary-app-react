@@ -12,11 +12,12 @@ export default function Phonetic(props) {
         {""}
       </a>
       <div className="phoneticText">/{props.phonetic.text}/</div>
-      <br />
-      <div className="player">
-        {" "}
-        <ReactAudioPlayer src={props.phonetic.audio} controls className="player" />
-      </div>
+      <br />{" "}
+      <ReactAudioPlayer
+        src={props.phonetic.audio}
+        controls
+        className="player"
+      />
     </div>
   );
 }

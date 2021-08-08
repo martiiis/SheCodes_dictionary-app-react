@@ -8,7 +8,16 @@
 .Meaning .definition {
   font-size: 15px;
   text-transform: initial;
+  margin-left: 15px;
 }
 .Meaning .example {
   opacity: 0.8;
+  margin-left: 30px;
+}
+
+.Meaning hr{
+  width: 150px;
+  display: block;
+  margin: auto;
+  padding: 15px;
 }
