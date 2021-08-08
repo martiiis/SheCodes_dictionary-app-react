@@ -1,0 +1,10 @@
+/** @format */
+
+.Photos img {
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.Photos .col-4 {
+  margin: 0 auto;
+}
