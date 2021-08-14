@@ -6,9 +6,10 @@
   line-height: 1.5;
 }
 .Meaning .definition {
-  font-size: 15px;
+  font-size: 18px;
   text-transform: initial;
   margin-left: 15px;
+  margin-bottom: 10px;
 }
 .Meaning .example {
   opacity: 0.8;
@@ -18,5 +19,7 @@
 .Meaning hr {
   display: block;
   margin: 0 auto;
-  width: 50px;
+  width: 150px;
+  margin-top: 20px;
+  margin-bottom: 25px;
 }

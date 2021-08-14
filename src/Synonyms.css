@@ -8,4 +8,12 @@
   margin: 5px 15px 5px;
   border: 1px dotted #21aba4fd;
   border-radius: 5px;
+  padding-left: 15px;
+}
+
+.Synonyms .synonyms {
+  margin-left: 30px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 18px;
 }
